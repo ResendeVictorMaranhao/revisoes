@@ -11,12 +11,10 @@
             gap: 40px;
             flex-wrap: wrap;
         }
-        .sombraB,
-        .sombraT,
-        .sombraL,
-        .sombraR{
+        div{
             margin-top: 0px;
-            
+            padding: 20px;
+            box-sizing: border-box;
             width: 400px;
             height: 200px;
             background-color: rgb(255, 208, 0);
@@ -38,9 +36,33 @@
             box-shadow: 4px 0px 2px -1px rgba(0, 0, 0, 0.4);
             display: flex;
         }
-       
         p{
             margin: auto;
+        }
+        .sobrepor{
+          box-shadow: inset 0px 100px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 200px 0px 0px red;
+            display: flex;
+        }
+        .elipse1{
+          width: 200px;
+          height: 200px;
+          border-radius: 100px;
+          border: 1px solid black;
+          box-shadow: inset 0px 0px 0px 50px rgb(255, 255, 255);
+        }
+        .elipse2{
+          width: 200px;
+          height: 200px;
+          border-radius: 100px;
+          border: 1px solid black;
+          box-shadow:inset 0px 0px 0px 90px black ; 
+        }
+        .elipse3{
+          width: 200px;
+          height: 200px;
+          border: 1px solid black;
+          border-radius: 100px;
+          box-shadow:inset 0px 0px 0px 50px rgb(255, 255, 255),inset 0px 0px 0px 100px black ; 
         }
     </style>
 </head>
@@ -56,6 +78,18 @@
     </div>
     <div class="sombraR" >
         <p>box-shadow: 4px 0px 2px -1px rgba(0, 0, 0, 0.4);</p>
+    </div>
+    <div class="sobrepor" >
+      <p> box-shadow: inset 0px 100px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 200px 0px 0px red;</p>
+    </div>
+    <div class="elipse1" >
+      <p> </p>
+    </div>
+    <div class="elipse2" >
+      <p> </p>
+    </div>
+    <div class="elipse3" >
+      <p> </p>
     </div>
 </body>
 </html>
