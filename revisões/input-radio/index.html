@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <style>
+      [type="radio"]{
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+      input:checked + label{
+        background-color: rgb(0, 172, 172);
+        padding: 1000;
+      }
+      label{
+        padding: 1rem 2rem;
+        width: 100px;
+        background-color: rgb(0, 238, 255);
+        display: inline-block;
+      }
+    </style>  
+</head>
+<body>
+  <form action="#">
+    <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label> 
+  <button>enviar</button>
+  </form>
+</body>
+</html>
