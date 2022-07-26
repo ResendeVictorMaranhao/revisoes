@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .sombraB,
+        .sombraT,
+        .sombraL,
+        .sombraR{
+            margin-top: 0px;
+            
+            width: 400px;
+            height: 200px;
+            background-color: rgb(255, 208, 0);
+        }
+        .sombraB{
+            box-shadow: 0px 4px 2px -1px rgba(0, 0, 0, 0.4);
+            display: flex;
+            
+        }
+        .sombraT{
+            box-shadow: 0px -3px 2px -1px rgba(0, 0, 0, 0.4);
+            display: flex;
+        }
+        .sombraL{
+            box-shadow: -4px 0px 2px -1px rgba(0, 0, 0, 0.4);
+            display: flex;
+        }
+        .sombraR{
+            box-shadow: 4px 0px 2px -1px rgba(0, 0, 0, 0.4);
+            display: flex;
+        }
+       
+        p{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sombraB">
+        <p>box-shadow: 0px 4px 2px -1px rgba(0, 0, 0, 0.4);</p>
+    </div>
+    <div class="sombraT">
+        <p> box-shadow: 0px -3px 2px -1px rgba(0, 0, 0, 0.4);</p>
+    </div>
+    <div class="sombraL" >
+        <p>+box-shadow: -4px 0px 2px -1px rgba(0, 0, 0, 0.4);</p>
+    </div>
+    <div class="sombraR" >
+        <p>box-shadow: 4px 0px 2px -1px rgba(0, 0, 0, 0.4);</p>
+    </div>
+</body>
+</html>
