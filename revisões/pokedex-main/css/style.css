@@ -1,0 +1,10 @@
+
+/*utilidades*/
+@import url('utilidades/cores.css');
+@import url('utilidades/componentes.css');
+@import url('utilidades/tipografia.css');
+/*home*/
+@import url('home/menu.css');
+@import url('home/home.css');
+/*reset*/
+@import url('global/global.css');
